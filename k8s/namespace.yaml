@@ -1,0 +1,7 @@
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: secure-web
+  labels:
+    app.kubernetes.io/part-of: k8s-secure-webapp
